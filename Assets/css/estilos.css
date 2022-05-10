@@ -1,0 +1,110 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #d8c2cc;
+}
+
+a {
+  color: none;
+  text-decoration: none;
+}
+
+/* portadad*/
+
+.navbar {
+  background-color: #792553; 
+}
+
+#banner {
+  background-image: url("../img/portada.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 550px;
+  opacity: 0.8;
+}
+
+/* Acerca de mi */
+
+#Acerca-de-mi {
+  color: rgb(215, 243, 139);
+  background-image: url("../img/portada.png");
+}
+
+.perfil {
+  display: flex;
+  justify-content: center;
+  }
+
+.perfil button {
+  display: flex;
+  align-items: center;
+}
+
+.perfil .btn-outline-info:hover {
+  color: #644757;
+  background-color: #c799b2 ;
+  border-color: #25161f ;
+}
+
+.perfil .btn-outline-info {
+  color: #b36590 ;
+  border-color: #0c090b ;
+}
+
+/* Mis trabajos */
+
+#Mis-trabajos {
+  background-color: #d8c2cc;
+  color: #792553 
+}
+
+#Mis-trabajos .image-top {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+}
+
+#Mis-trabajos .btn-outline-info {
+  color: #792553 ;
+  border-color: #792553 ;
+}
+
+#Mis-trabajos .btn-outline-info:hover {
+  color: #fff;
+  background-color: #792553  ;
+  border-color: #792553  ;
+}
+  
+  /* Contacto */
+
+#Contacto {
+  color: #5b4729;
+}
+
+#Contacto .btn-outline-info {
+  color: #756d5b ;
+  border-color: #756d5b ;
+}
+
+#Contacto .btn-outline-info:hover {
+  color: #fff;
+  background-color: #756d5b ;
+  border-color: #756d5b ;
+}
+  
+  /* @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand{
+      width: 100px;
+    }
+  
+  } */
+
+footer {
+  background-color: #989d6e;
+} 
+  
